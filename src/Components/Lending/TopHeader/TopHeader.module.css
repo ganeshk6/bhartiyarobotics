@@ -1,0 +1,12 @@
+.TopHeader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #D9D9D9;
+    height: 4rem;
+    font-family: Luxurious Roman;
+    text-transform: capitalize;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+}

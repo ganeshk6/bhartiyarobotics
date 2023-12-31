@@ -1,0 +1,66 @@
+/* @import url(.././assets/images/banner.png); */
+.homeBanner{
+    position: relative;
+    background-image: url(.././assets/images/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+.homeContent{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 0rem 4rem;
+    width: 50%;
+    height: 100%;
+    /* background-color: rgba(0, 0, 0, 0.5); */
+}
+@media screen and (max-width:1150px) {
+    .homeContent{
+        width: 60%;
+    }
+}
+@media screen and (max-width:1000px) {
+    .homeContent{
+        width: 70%;
+    }
+}
+@media screen and (max-width:850px) {
+    .homeBanner{
+        background-size: cover;
+        height: 60vh;
+    }
+    .homeContent{
+        width: 100%;
+        padding: 0px 1rem;
+    }
+}
+@media screen and (max-width:650px) {
+    .homeBanner{
+        width: 100vw;
+        height: 60vh;
+        background-size: cover;
+    }
+    .homeContent{
+        width: 100%;
+        padding: 0 1rem;
+        /* color: #fff; */
+    }
+}
+@media screen and (max-width:450px) {
+    .homeBanner{
+        width: 100vw;
+        height: 50vh;
+        background-size: cover;
+    }
+}
+@media screen and (max-width:400px) {
+    .homeBanner{
+        width: 100vw;
+        height: 60vh;
+        background-size: cover;
+    }
+}

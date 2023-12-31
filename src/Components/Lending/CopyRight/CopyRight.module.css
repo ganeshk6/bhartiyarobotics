@@ -1,0 +1,18 @@
+.CopyRight {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #D9D9D9;
+    height: 4rem;
+    font-family: Luxurious Roman;
+    text-transform: capitalize;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    padding: 0rem 1rem;
+}
+@media screen and (max-width:850) {
+    .CopyRight p{
+        padding: 2rem 1rem;
+    }
+}
